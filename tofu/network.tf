@@ -1,3 +1,7 @@
+# network.tf
+# Configures two bridge networks: public-net-1 with DMZ security ACLs and NAT,
+# and private-net-1 with internal zone restrictions and allow egress.
+
 resource "incus_network" "public-net-1" {
   name = "public-net-1"
   type = "bridge"

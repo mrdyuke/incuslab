@@ -1,4 +1,6 @@
-// https://github.com/lxc/terraform-provider-incus
+# provider.tf
+# Configures the Incus cloud provider for managing infrastructure resources.
+# Defines the required provider "incus" from lxc source.
 
 terraform {
   required_providers {

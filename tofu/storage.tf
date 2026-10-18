@@ -1,3 +1,6 @@
+# storage.tf
+# Configures the incus_storage_pool pool-1 with dir driver for local storage.
+
 resource "incus_storage_pool" "pool-1" {
   name   = "pool-1"
   driver = "dir"

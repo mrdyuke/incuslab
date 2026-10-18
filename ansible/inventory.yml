@@ -1,0 +1,4 @@
+plugin: community.general.incus
+filters:
+  - type=virtual-machine
+  - status=running
